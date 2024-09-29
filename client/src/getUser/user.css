@@ -1,0 +1,37 @@
+.userTable {
+  width: 60%;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.userTable table{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.userTable table thead th{
+    background-color: darkcyan;
+    color: white;
+}
+
+.userTable table tbody th{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+i:hover{
+    background-color: transparent !important;
+    background-size: cover;
+}
+
+.editButton:hover{
+    background-color: cyan;
+}
+
+.deleteButton:hover{
+    background-color: red;
+}
